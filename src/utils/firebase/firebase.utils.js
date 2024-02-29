@@ -28,7 +28,7 @@ const firebaseConfig = {
   appId: "1:1004978451639:web:7ebff2c76d016736264932",
 };
 
-// Initialize Firebase
+/* eslint-disable no-unused-vars */
 const firebaseApp = initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
